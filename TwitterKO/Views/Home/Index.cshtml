@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    <div class="row" data-bind="foreach: tweets">
+        <div class="col-xs-2"><span data-bind="text: tweet"></span></div>
+    </div>
+</div>
